@@ -4,7 +4,12 @@ export default defineConfig({
   // Declare your Neon services here
   preview: {
     realtime: {
-      allowedOrigins: ["http://localhost:3000", "http://localhost:3001"],
+      allowedOrigins: [
+        "http://localhost:3000",
+        "http://localhost:3001",
+        "https://b20scheduling2026.vercel.app",
+        "https://b20-scheduling-2026.vercel.app",
+      ],
     },
   },
   auth: false,
